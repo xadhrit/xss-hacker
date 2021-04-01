@@ -1,4 +1,4 @@
-## Tag Wise Payload Cheat -Sheet
+## Tag Wise Payload Cheat-Sheet for XSS
 
 I have divided payloads in following files:-
 
