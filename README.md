@@ -7,7 +7,8 @@ I have divided payloads in following files:-
 3. Script tag based
 4. body tag based
 5. Style tag based
-
+6. Style-item based
+7. Vuejs Based
 ```console
 
 More to Come,  this is not enough to hack the Universe.
